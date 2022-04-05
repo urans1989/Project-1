@@ -49,3 +49,15 @@
 `sudo systemctl reload apache2`
 
 ![virtual-host-website](./images/virtual-host-website.png)
+
+## H2 PHP ENABLED WEBSITE DOCUMENTATION
+
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
+
+` sudo systemctl reload apache2`
+
+`vim /var/www/html/best/index.php`
+
+` rm /var/www/html/best/index.php` 
+
+![php-enabled-web](./images/php-enabled-website.png)
